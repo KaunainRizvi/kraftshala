@@ -42,7 +42,7 @@ const App = () => {
   return (
     <div className="app">
       <div className="header">
-        <h1>Weather App</h1>
+        <h1>KraftShala Weather App</h1>
         <button onClick={handleToggle} className="toggle-button">
           {darkMode ? <FaSun /> : <FaMoon />}
         </button>
