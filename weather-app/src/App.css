@@ -10,6 +10,30 @@ body.dark-mode {
   transition: background-color 0.3s, color 0.3s;
 }
 
+body.summer-mode {
+  background-color: #ffcc00;
+  background-image: url('summer.gif');
+  background-size: cover;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.winter-mode {
+  background-color: #b3e0ff;
+  background-image: url('winter.gif');
+  background-size: cover;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.rainy-mode {
+  background-color: #a3a3a3;
+  background-image: url('rain.gif');
+  background-size: cover;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 .app {
   font-family: 'Arial', sans-serif;
   text-align: center;
@@ -97,6 +121,13 @@ body.dark-mode {
 
 .weather-card p {
   margin: 5px 0;
+}
+
+.weather-gif {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .error {
